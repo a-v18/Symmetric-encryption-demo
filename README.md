@@ -36,12 +36,15 @@ A lightweight **Proof of Concept (PoC)** demonstrating symmetric file encryption
 2. **Install dependencies:** `pip install cryptography`
 3. **Run the demo script:** `python crypto.py`
 
+---
 
 🔒 How It Works
-`generate_key()` creates a new Fernet key and writes it to key.key.
+`generate_key()` creates a new Fernet key and writes it to key.key.<br>
 A sample text file `(example.txt)` is generated.<br>
-`encrypt_file()` encrypts the content, outputs example.txt.encrypted, and removes the plain file.
-`decrypt_file()` reads the encrypted payload, reverses the process using key.key, and restores the original file
+`encrypt_file()` encrypts the content, outputs example.txt.encrypted, and removes the plain file.<br>
+`decrypt_file()` reads the encrypted payload, reverses the process using key.key, and restores the original file<br><br>
+
+---
 
 📜License
 Distributed under the MIT License. See `LICENSE` for more information.
