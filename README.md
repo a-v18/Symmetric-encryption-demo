@@ -38,7 +38,7 @@ A lightweight **Proof of Concept (PoC)** demonstrating symmetric file encryption
 
 ---
 
-##**🔒 How It Works**
+## 🔒 How It Works<br>
 
 `generate_key()` creates a new Fernet key and writes it to key.key.<br>
 A sample text file `(example.txt)` is generated.<br>
