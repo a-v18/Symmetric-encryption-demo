@@ -43,9 +43,8 @@ A lightweight **Proof of Concept (PoC)** demonstrating symmetric file encryption
 `generate_key()` creates a new Fernet key and writes it to key.key.<br>
 A sample text file `(example.txt)` is generated.<br>
 `encrypt_file()` encrypts the content, outputs example.txt.encrypted, and removes the plain file.<br>
-`decrypt_file()` reads the encrypted payload, reverses the process using key.key, and restores the original file<br><br>
-
+`decrypt_file()` reads the encrypted payload, reverses the process using key.key, and restores the original file
 ---
 
-📜License
+##📜License
 Distributed under the MIT License. See `LICENSE` for more information.
